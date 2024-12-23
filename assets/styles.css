@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-    background-color: black;
+    background-color: black !important;
     color: white;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,7 +10,12 @@ body {
 
 /* Top Section: Name and Description */
 .top-section {
-    margin-top: 20px;
+    position: absolute;  /* Make it positioned relative to the body */
+    top: 20px;           /* Adjust space from the top */
+    left: 50%;
+    transform: translateX(-50%); /* This will center the name horizontally */
+    text-align: center;
+    z-index: 1; /* Ensures that it is placed above other content */
 }
 
 .top-section h1 {
@@ -33,7 +38,7 @@ body {
 .profile-img {
     width: 200px;  /* Adjust the size as needed */
     height: auto;  /* Maintain aspect ratio */
-    border-radius: 50%;  /* Optional: for a circular image */
+    border-radius: 10%;  /* Optional: for a circular image */
 }
 
 /* Skills Section */
