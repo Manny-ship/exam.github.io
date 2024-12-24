@@ -1,11 +1,15 @@
 /* Global Styles */
 body {
-    background-color: black !important;
+    background-color: black;
     color: white;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
+    height: 100vh;  /* Full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 /* Top Section: Name and Description */
