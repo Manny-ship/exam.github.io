@@ -9,15 +9,12 @@ body {
     height: 100vh;  /* Full height of the viewport */
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Top Section: Name and Description */
 .top-section {
-    position: absolute;  /* Make it positioned relative to the body */
-    top: 20px;           /* Adjust space from the top */
-    left: 50%;
-    transform: translateX(-50%); /* This will center the name horizontally */
     text-align: center;
     z-index: 1; /* Ensures that it is placed above other content */
 }
