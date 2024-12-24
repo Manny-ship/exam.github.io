@@ -15,7 +15,7 @@ body {
 
 /* Top Section: Name and Description */
 .top-section {
-    margin-bottom: 20px;  /* Space between top section and center section */
+    margin-bottom: 40px;  /* Space between top section and center section */
     z-index: 1; /* Ensures that it is placed above other content */
 }
 
