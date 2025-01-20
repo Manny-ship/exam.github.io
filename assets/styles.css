@@ -6,7 +6,7 @@ body {
     margin: 5;
     padding: 5;
     text-align: center;
-    height: 100vh;  /* Full height of the viewport */
+    height: 50vh;  /* Full height of the viewport */
     display: flex;
     flex-direction: column;
     justify-content: center;
