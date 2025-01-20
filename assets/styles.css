@@ -21,10 +21,10 @@ body {
 
 /* Center Section: GIF */
 .center-section {
-    margin-top: 50px;  /* Adjust space between description and GIF */
+    margin-top: 20px;  /* Adjust space between description and GIF */
     display: flex;
     justify-content: center;
-    margin-bottom: 30px; /* Add space after GIF */
+    margin-bottom: 20px; /* Add space after GIF */
 }
 
 .profile-img {
